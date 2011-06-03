@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5144A635139992BD00C5E2AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144A634139992BD00C5E2AC /* UIKit.framework */; };
+		5144A637139992BD00C5E2AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144A636139992BD00C5E2AC /* Foundation.framework */; };
+		5144A639139992BD00C5E2AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144A638139992BD00C5E2AC /* CoreGraphics.framework */; };
+		5144A63F139992BD00C5E2AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5144A63D139992BD00C5E2AC /* InfoPlist.strings */; };
+		5144A642139992BD00C5E2AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5144A641139992BD00C5E2AC /* main.m */; };
+		5144A645139992BD00C5E2AC /* DeliriumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5144A644139992BD00C5E2AC /* DeliriumAppDelegate.m */; };
+		5144A648139992BD00C5E2AC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5144A646139992BD00C5E2AC /* MainWindow.xib */; };
+		5144A64B139992BD00C5E2AC /* DeliriumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5144A64A139992BD00C5E2AC /* DeliriumViewController.m */; };
+		5144A64E139992BD00C5E2AC /* DeliriumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5144A64C139992BD00C5E2AC /* DeliriumViewController.xib */; };
+		5144A655139992BD00C5E2AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144A634139992BD00C5E2AC /* UIKit.framework */; };
+		5144A656139992BD00C5E2AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144A636139992BD00C5E2AC /* Foundation.framework */; };
+		5144A657139992BD00C5E2AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5144A638139992BD00C5E2AC /* CoreGraphics.framework */; };
+		5144A65F139992BD00C5E2AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5144A65D139992BD00C5E2AC /* InfoPlist.strings */; };
+		5144A662139992BD00C5E2AC /* DeliriumTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5144A661139992BD00C5E2AC /* DeliriumTests.h */; };
+		5144A664139992BD00C5E2AC /* DeliriumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5144A663139992BD00C5E2AC /* DeliriumTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5144A658139992BD00C5E2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5144A627139992BD00C5E2AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5144A62F139992BD00C5E2AC;
+			remoteInfo = Delirium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5144A630139992BD00C5E2AC /* Delirium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delirium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5144A634139992BD00C5E2AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5144A636139992BD00C5E2AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5144A638139992BD00C5E2AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5144A63C139992BD00C5E2AC /* Delirium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Delirium-Info.plist"; sourceTree = "<group>"; };
+		5144A63E139992BD00C5E2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5144A640139992BD00C5E2AC /* Delirium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Delirium-Prefix.pch"; sourceTree = "<group>"; };
+		5144A641139992BD00C5E2AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5144A643139992BD00C5E2AC /* DeliriumAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliriumAppDelegate.h; sourceTree = "<group>"; };
+		5144A644139992BD00C5E2AC /* DeliriumAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliriumAppDelegate.m; sourceTree = "<group>"; };
+		5144A647139992BD00C5E2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5144A649139992BD00C5E2AC /* DeliriumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliriumViewController.h; sourceTree = "<group>"; };
+		5144A64A139992BD00C5E2AC /* DeliriumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliriumViewController.m; sourceTree = "<group>"; };
+		5144A64D139992BD00C5E2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DeliriumViewController.xib; sourceTree = "<group>"; };
+		5144A654139992BD00C5E2AC /* DeliriumTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliriumTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5144A65C139992BD00C5E2AC /* DeliriumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeliriumTests-Info.plist"; sourceTree = "<group>"; };
+		5144A65E139992BD00C5E2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5144A660139992BD00C5E2AC /* DeliriumTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeliriumTests-Prefix.pch"; sourceTree = "<group>"; };
+		5144A661139992BD00C5E2AC /* DeliriumTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliriumTests.h; sourceTree = "<group>"; };
+		5144A663139992BD00C5E2AC /* DeliriumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliriumTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5144A62D139992BD00C5E2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5144A635139992BD00C5E2AC /* UIKit.framework in Frameworks */,
+				5144A637139992BD00C5E2AC /* Foundation.framework in Frameworks */,
+				5144A639139992BD00C5E2AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5144A650139992BD00C5E2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5144A655139992BD00C5E2AC /* UIKit.framework in Frameworks */,
+				5144A656139992BD00C5E2AC /* Foundation.framework in Frameworks */,
+				5144A657139992BD00C5E2AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5144A625139992BD00C5E2AC = {
+			isa = PBXGroup;
+			children = (
+				5144A63A139992BD00C5E2AC /* Delirium */,
+				5144A65A139992BD00C5E2AC /* DeliriumTests */,
+				5144A633139992BD00C5E2AC /* Frameworks */,
+				5144A631139992BD00C5E2AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5144A631139992BD00C5E2AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5144A630139992BD00C5E2AC /* Delirium.app */,
+				5144A654139992BD00C5E2AC /* DeliriumTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5144A633139992BD00C5E2AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5144A634139992BD00C5E2AC /* UIKit.framework */,
+				5144A636139992BD00C5E2AC /* Foundation.framework */,
+				5144A638139992BD00C5E2AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5144A63A139992BD00C5E2AC /* Delirium */ = {
+			isa = PBXGroup;
+			children = (
+				5144A643139992BD00C5E2AC /* DeliriumAppDelegate.h */,
+				5144A644139992BD00C5E2AC /* DeliriumAppDelegate.m */,
+				5144A646139992BD00C5E2AC /* MainWindow.xib */,
+				5144A649139992BD00C5E2AC /* DeliriumViewController.h */,
+				5144A64A139992BD00C5E2AC /* DeliriumViewController.m */,
+				5144A64C139992BD00C5E2AC /* DeliriumViewController.xib */,
+				5144A63B139992BD00C5E2AC /* Supporting Files */,
+			);
+			path = Delirium;
+			sourceTree = "<group>";
+		};
+		5144A63B139992BD00C5E2AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5144A63C139992BD00C5E2AC /* Delirium-Info.plist */,
+				5144A63D139992BD00C5E2AC /* InfoPlist.strings */,
+				5144A640139992BD00C5E2AC /* Delirium-Prefix.pch */,
+				5144A641139992BD00C5E2AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5144A65A139992BD00C5E2AC /* DeliriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5144A661139992BD00C5E2AC /* DeliriumTests.h */,
+				5144A663139992BD00C5E2AC /* DeliriumTests.m */,
+				5144A65B139992BD00C5E2AC /* Supporting Files */,
+			);
+			path = DeliriumTests;
+			sourceTree = "<group>";
+		};
+		5144A65B139992BD00C5E2AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5144A65C139992BD00C5E2AC /* DeliriumTests-Info.plist */,
+				5144A65D139992BD00C5E2AC /* InfoPlist.strings */,
+				5144A660139992BD00C5E2AC /* DeliriumTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5144A62F139992BD00C5E2AC /* Delirium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5144A667139992BD00C5E2AC /* Build configuration list for PBXNativeTarget "Delirium" */;
+			buildPhases = (
+				5144A62C139992BD00C5E2AC /* Sources */,
+				5144A62D139992BD00C5E2AC /* Frameworks */,
+				5144A62E139992BD00C5E2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Delirium;
+			productName = Delirium;
+			productReference = 5144A630139992BD00C5E2AC /* Delirium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5144A653139992BD00C5E2AC /* DeliriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5144A66A139992BD00C5E2AC /* Build configuration list for PBXNativeTarget "DeliriumTests" */;
+			buildPhases = (
+				5144A64F139992BD00C5E2AC /* Sources */,
+				5144A650139992BD00C5E2AC /* Frameworks */,
+				5144A651139992BD00C5E2AC /* Resources */,
+				5144A652139992BD00C5E2AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5144A659139992BD00C5E2AC /* PBXTargetDependency */,
+			);
+			name = DeliriumTests;
+			productName = DeliriumTests;
+			productReference = 5144A654139992BD00C5E2AC /* DeliriumTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5144A627139992BD00C5E2AC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5144A62A139992BD00C5E2AC /* Build configuration list for PBXProject "Delirium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5144A625139992BD00C5E2AC;
+			productRefGroup = 5144A631139992BD00C5E2AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5144A62F139992BD00C5E2AC /* Delirium */,
+				5144A653139992BD00C5E2AC /* DeliriumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5144A62E139992BD00C5E2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5144A63F139992BD00C5E2AC /* InfoPlist.strings in Resources */,
+				5144A648139992BD00C5E2AC /* MainWindow.xib in Resources */,
+				5144A64E139992BD00C5E2AC /* DeliriumViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5144A651139992BD00C5E2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5144A65F139992BD00C5E2AC /* InfoPlist.strings in Resources */,
+				5144A662139992BD00C5E2AC /* DeliriumTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5144A652139992BD00C5E2AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5144A62C139992BD00C5E2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5144A642139992BD00C5E2AC /* main.m in Sources */,
+				5144A645139992BD00C5E2AC /* DeliriumAppDelegate.m in Sources */,
+				5144A64B139992BD00C5E2AC /* DeliriumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5144A64F139992BD00C5E2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5144A664139992BD00C5E2AC /* DeliriumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5144A659139992BD00C5E2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5144A62F139992BD00C5E2AC /* Delirium */;
+			targetProxy = 5144A658139992BD00C5E2AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5144A63D139992BD00C5E2AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5144A63E139992BD00C5E2AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5144A646139992BD00C5E2AC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5144A647139992BD00C5E2AC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5144A64C139992BD00C5E2AC /* DeliriumViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5144A64D139992BD00C5E2AC /* en */,
+			);
+			name = DeliriumViewController.xib;
+			sourceTree = "<group>";
+		};
+		5144A65D139992BD00C5E2AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5144A65E139992BD00C5E2AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5144A665139992BD00C5E2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5144A666139992BD00C5E2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5144A668139992BD00C5E2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delirium/Delirium-Prefix.pch";
+				INFOPLIST_FILE = "Delirium/Delirium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5144A669139992BD00C5E2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delirium/Delirium-Prefix.pch";
+				INFOPLIST_FILE = "Delirium/Delirium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5144A66B139992BD00C5E2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Delirium.app/Delirium";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeliriumTests/DeliriumTests-Prefix.pch";
+				INFOPLIST_FILE = "DeliriumTests/DeliriumTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5144A66C139992BD00C5E2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Delirium.app/Delirium";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeliriumTests/DeliriumTests-Prefix.pch";
+				INFOPLIST_FILE = "DeliriumTests/DeliriumTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5144A62A139992BD00C5E2AC /* Build configuration list for PBXProject "Delirium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5144A665139992BD00C5E2AC /* Debug */,
+				5144A666139992BD00C5E2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5144A667139992BD00C5E2AC /* Build configuration list for PBXNativeTarget "Delirium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5144A668139992BD00C5E2AC /* Debug */,
+				5144A669139992BD00C5E2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5144A66A139992BD00C5E2AC /* Build configuration list for PBXNativeTarget "DeliriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5144A66B139992BD00C5E2AC /* Debug */,
+				5144A66C139992BD00C5E2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5144A627139992BD00C5E2AC /* Project object */;
+}
