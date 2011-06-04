@@ -8,17 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-
-typedef enum _DTButtonColor {
-	DTButtonNoColor = 0,
-	DTButtonRedColor = 1,
-	DTButtonBlueColor = 2,
-	DTButtonGreenColor = 3,
-	DTButtonYellowColor = 4,
-	DTButtonBlackColor = 5,
-	DTButtonWhiteColor = 6
-} DTButtonColor;
+#import "DTButtonColors.h"
 
 
 @interface DTButton : UIButton {

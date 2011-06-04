@@ -1,17 +1,17 @@
 //
-//  DTButtonsViewController.m
+//  DTGradientButtonViewController.m
 //  Delirium
 //
 //  Created by Arnaud Coomans on 04/06/11.
 //  Copyright 2011 Arnaud Coomans. All rights reserved.
 //
 
-#import "DTButtonsViewController.h"
+#import "DTGradientButtonViewController.h"
 
 
-@implementation DTButtonsViewController
+@implementation DTGradientButtonViewController
 
-@synthesize redButton, blueButton, greenButton, yellowButton, blackButton, whiteButton;
+@synthesize redButton, blueButton, greenButton, yellowButton;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -38,7 +38,6 @@
 
 #pragma mark - View lifecycle
 
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -48,8 +47,6 @@
 	blueButton.color = DTButtonBlueColor;
 	greenButton.color = DTButtonGreenColor;
 	yellowButton.color = DTButtonYellowColor;
-	blackButton.color = DTButtonBlackColor;
-	whiteButton.color = DTButtonWhiteColor;
 }
 
 - (void)viewDidUnload
