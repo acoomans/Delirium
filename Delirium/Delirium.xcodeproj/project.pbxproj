@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		511EB988139AFFCA00C32C20 /* FadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EB986139AFFCA00C32C20 /* FadingViewController.m */; };
 		511EB989139AFFCA00C32C20 /* FadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 511EB987139AFFCA00C32C20 /* FadingViewController.xib */; };
+		511EB98D139B010100C32C20 /* NSMutableArray+ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EB98B139B00FB00C32C20 /* NSMutableArray+ExtrasTests.m */; };
 		51314D961399FAA400FBBADB /* DTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 51314D951399FAA400FBBADB /* DTButton.m */; };
 		5131E72F139A27320077F752 /* DTButtons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5131E72E139A27320077F752 /* DTButtons.bundle */; };
 		5131E73A139A2CFD0077F752 /* DTButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5131E738139A2CFD0077F752 /* DTButtonsViewController.m */; };
@@ -38,7 +39,6 @@
 		51D110851399F4B200A97CC5 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1107A1399F4B200A97CC5 /* UIImage+Crop.m */; };
 		51D110861399F4B200A97CC5 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1107C1399F4B200A97CC5 /* UIImage+Rotate.m */; };
 		51D110871399F4B200A97CC5 /* UIView+Fading.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1107E1399F4B200A97CC5 /* UIView+Fading.m */; };
-		51D110881399F4B200A97CC5 /* UIButton+Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D110801399F4B200A97CC5 /* UIButton+Switch.m */; };
 		51D1108F1399F63800A97CC5 /* NSObject+MappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1108A1399F4D600A97CC5 /* NSObject+MappingTests.m */; };
 		51D110911399F65900A97CC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D110901399F65900A97CC5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +58,8 @@
 		511EB985139AFFCA00C32C20 /* FadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadingViewController.h; sourceTree = "<group>"; };
 		511EB986139AFFCA00C32C20 /* FadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadingViewController.m; sourceTree = "<group>"; };
 		511EB987139AFFCA00C32C20 /* FadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FadingViewController.xib; sourceTree = "<group>"; };
+		511EB98A139B00FB00C32C20 /* NSMutableArray+ExtrasTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ExtrasTests.h"; sourceTree = "<group>"; };
+		511EB98B139B00FB00C32C20 /* NSMutableArray+ExtrasTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ExtrasTests.m"; sourceTree = "<group>"; };
 		51314D941399FAA400FBBADB /* DTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTButton.h; sourceTree = "<group>"; };
 		51314D951399FAA400FBBADB /* DTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTButton.m; sourceTree = "<group>"; };
 		5131E72E139A27320077F752 /* DTButtons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DTButtons.bundle; sourceTree = "<group>"; };
@@ -105,8 +107,6 @@
 		51D1107C1399F4B200A97CC5 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
 		51D1107D1399F4B200A97CC5 /* UIView+Fading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Fading.h"; sourceTree = "<group>"; };
 		51D1107E1399F4B200A97CC5 /* UIView+Fading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Fading.m"; sourceTree = "<group>"; };
-		51D1107F1399F4B200A97CC5 /* UIButton+Switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIButton+Switch.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		51D110801399F4B200A97CC5 /* UIButton+Switch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIButton+Switch.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		51D110891399F4D600A97CC5 /* NSObject+MappingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MappingTests.h"; sourceTree = "<group>"; };
 		51D1108A1399F4D600A97CC5 /* NSObject+MappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MappingTests.m"; sourceTree = "<group>"; };
 		51D110901399F65900A97CC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -209,6 +209,8 @@
 				5144A663139992BD00C5E2AC /* DeliriumTests.m */,
 				51D110891399F4D600A97CC5 /* NSObject+MappingTests.h */,
 				51D1108A1399F4D600A97CC5 /* NSObject+MappingTests.m */,
+				511EB98A139B00FB00C32C20 /* NSMutableArray+ExtrasTests.h */,
+				511EB98B139B00FB00C32C20 /* NSMutableArray+ExtrasTests.m */,
 				5144A65B139992BD00C5E2AC /* Supporting Files */,
 			);
 			path = DeliriumTests;
@@ -265,8 +267,6 @@
 				51D1107C1399F4B200A97CC5 /* UIImage+Rotate.m */,
 				51D1107D1399F4B200A97CC5 /* UIView+Fading.h */,
 				51D1107E1399F4B200A97CC5 /* UIView+Fading.m */,
-				51D1107F1399F4B200A97CC5 /* UIButton+Switch.h */,
-				51D110801399F4B200A97CC5 /* UIButton+Switch.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -393,7 +393,6 @@
 				51D110851399F4B200A97CC5 /* UIImage+Crop.m in Sources */,
 				51D110861399F4B200A97CC5 /* UIImage+Rotate.m in Sources */,
 				51D110871399F4B200A97CC5 /* UIView+Fading.m in Sources */,
-				51D110881399F4B200A97CC5 /* UIButton+Switch.m in Sources */,
 				51314D961399FAA400FBBADB /* DTButton.m in Sources */,
 				5131E73A139A2CFD0077F752 /* DTButtonsViewController.m in Sources */,
 				514ED30D139AF21200D7A311 /* DTGradientButton.m in Sources */,
@@ -408,6 +407,7 @@
 			files = (
 				5144A664139992BD00C5E2AC /* DeliriumTests.m in Sources */,
 				51D1108F1399F63800A97CC5 /* NSObject+MappingTests.m in Sources */,
+				511EB98D139B010100C32C20 /* NSMutableArray+ExtrasTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
