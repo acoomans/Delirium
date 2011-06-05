@@ -12,4 +12,6 @@
     
 }
 
+- (void)testinsertObjectsFromArray;
+
 @end

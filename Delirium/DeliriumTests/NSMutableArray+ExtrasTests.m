@@ -27,7 +27,7 @@
 
 
 
-- (void)testMapDictionaryToObject {
+- (void)testinsertObjectsFromArray {
 	NSMutableArray *dst = [NSMutableArray arrayWithObjects:@"a", @"e", nil];
 	NSArray *src = [NSArray arrayWithObjects:@"b", @"c", @"d", nil];
 	
