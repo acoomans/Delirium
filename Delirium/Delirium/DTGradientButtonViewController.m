@@ -23,8 +23,11 @@
     return self;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
+	[redButton release];
+	[blueButton release];
+	[greenButton release];
+	[yellowButton release];
     [super dealloc];
 }
 

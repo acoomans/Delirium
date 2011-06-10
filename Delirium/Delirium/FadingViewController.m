@@ -26,6 +26,8 @@
 
 - (void)dealloc
 {
+	[switch1 release];
+	[switch2 release];
     [super dealloc];
 }
 

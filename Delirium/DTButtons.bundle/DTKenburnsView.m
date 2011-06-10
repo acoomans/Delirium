@@ -73,6 +73,7 @@ kenburnsFadeOutDuration=mKenburnsFadeOutDuration;
 */
 
 - (void)dealloc {
+	NSLog(@"dealloc");
 	[mKenburnsImageView release];
 	[mKenburnsImages release];
 	[mKenburnsVectors release];

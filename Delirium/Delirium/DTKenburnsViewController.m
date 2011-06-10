@@ -22,8 +22,11 @@
     return self;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
+	NSLog(@"dealloc view controller");
+	[kenburns stopKenburns];
+	[kenburns release];
+	[button release];
     [super dealloc];
 }
 
