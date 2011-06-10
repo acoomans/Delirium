@@ -6,6 +6,11 @@
 //  Copyright 2011 Arnaud Coomans. All rights reserved.
 //
 
+
+/*
+ Note: call stopKenburns before releasing
+*/
+
 #import <UIKit/UIKit.h>
 
 #define kKenburnsDirection YES;
