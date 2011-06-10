@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51087C4813A1EBB100513530 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51087C4713A1EBB100513530 /* icon.png */; };
+		51087C4A13A1EBB600513530 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51087C4913A1EBB600513530 /* icon@2x.png */; };
 		510A6B38139D7F5B00FD3839 /* DTKenburnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510A6B37139D7F5B00FD3839 /* DTKenburnsView.m */; };
 		510A6B3D139D8B6600FD3839 /* DTKenburnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510A6B3B139D8B6600FD3839 /* DTKenburnsViewController.m */; };
 		510A6B3E139D8B6600FD3839 /* DTKenburnsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B3C139D8B6600FD3839 /* DTKenburnsViewController.xib */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51087C4713A1EBB100513530 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		51087C4913A1EBB600513530 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		510A6B36139D7F5B00FD3839 /* DTKenburnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTKenburnsView.h; path = DTButtons.bundle/DTKenburnsView.h; sourceTree = "<group>"; };
 		510A6B37139D7F5B00FD3839 /* DTKenburnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTKenburnsView.m; path = DTButtons.bundle/DTKenburnsView.m; sourceTree = "<group>"; };
 		510A6B3A139D8B6600FD3839 /* DTKenburnsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTKenburnsViewController.h; sourceTree = "<group>"; };
@@ -191,6 +195,8 @@
 		5144A625139992BD00C5E2AC = {
 			isa = PBXGroup;
 			children = (
+				51087C4913A1EBB600513530 /* icon@2x.png */,
+				51087C4713A1EBB100513530 /* icon.png */,
 				51D110611399F41F00A97CC5 /* DeliriumLibrary */,
 				5144A63A139992BD00C5E2AC /* Delirium */,
 				5144A65A139992BD00C5E2AC /* DeliriumTests */,
@@ -401,6 +407,8 @@
 				510A6B4D139D8CE600FD3839 /* IMG_1147.JPG in Resources */,
 				510A6B4F139D8CF300FD3839 /* IMG_1159.JPG in Resources */,
 				5123CB0E13A1CC10007511F3 /* DeliriumMenuViewController.xib in Resources */,
+				51087C4813A1EBB100513530 /* icon.png in Resources */,
+				51087C4A13A1EBB600513530 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
