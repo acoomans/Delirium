@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510A6B38139D7F5B00FD3839 /* DTKenburnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510A6B37139D7F5B00FD3839 /* DTKenburnsView.m */; };
+		510A6B3D139D8B6600FD3839 /* DTKenburnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510A6B3B139D8B6600FD3839 /* DTKenburnsViewController.m */; };
+		510A6B3E139D8B6600FD3839 /* DTKenburnsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B3C139D8B6600FD3839 /* DTKenburnsViewController.xib */; };
+		510A6B41139D8C5F00FD3839 /* IMG_0661.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B40139D8C5F00FD3839 /* IMG_0661.JPG */; };
+		510A6B45139D8C8C00FD3839 /* IMG_0729.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B44139D8C8C00FD3839 /* IMG_0729.JPG */; };
+		510A6B47139D8CA500FD3839 /* IMG_0848.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B46139D8CA500FD3839 /* IMG_0848.JPG */; };
+		510A6B49139D8CC100FD3839 /* IMG_0977.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B48139D8CC100FD3839 /* IMG_0977.JPG */; };
+		510A6B4D139D8CE600FD3839 /* IMG_1147.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B4C139D8CE600FD3839 /* IMG_1147.JPG */; };
+		510A6B4F139D8CF300FD3839 /* IMG_1159.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 510A6B4E139D8CF200FD3839 /* IMG_1159.JPG */; };
 		511EB988139AFFCA00C32C20 /* FadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EB986139AFFCA00C32C20 /* FadingViewController.m */; };
 		511EB989139AFFCA00C32C20 /* FadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 511EB987139AFFCA00C32C20 /* FadingViewController.xib */; };
 		511EB98D139B010100C32C20 /* NSMutableArray+ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EB98B139B00FB00C32C20 /* NSMutableArray+ExtrasTests.m */; };
@@ -32,7 +41,6 @@
 		514ED30D139AF21200D7A311 /* DTGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 514ED30C139AF21200D7A311 /* DTGradientButton.m */; };
 		514ED313139AFAEA00D7A311 /* DTGradientButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514ED311139AFAEA00D7A311 /* DTGradientButtonViewController.m */; };
 		514ED314139AFAEA00D7A311 /* DTGradientButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514ED312139AFAEA00D7A311 /* DTGradientButtonViewController.xib */; };
-		51D110811399F4B200A97CC5 /* NSDateFormatter+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D110711399F4B200A97CC5 /* NSDateFormatter+Extras.m */; };
 		51D110821399F4B200A97CC5 /* NSMutableArray+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D110731399F4B200A97CC5 /* NSMutableArray+Extras.m */; };
 		51D110831399F4B200A97CC5 /* NSObject+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D110751399F4B200A97CC5 /* NSObject+Mapping.m */; };
 		51D110841399F4B200A97CC5 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D110781399F4B200A97CC5 /* UIImage+Resize.m */; };
@@ -54,6 +62,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		510A6B36139D7F5B00FD3839 /* DTKenburnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTKenburnsView.h; path = DTButtons.bundle/DTKenburnsView.h; sourceTree = "<group>"; };
+		510A6B37139D7F5B00FD3839 /* DTKenburnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTKenburnsView.m; path = DTButtons.bundle/DTKenburnsView.m; sourceTree = "<group>"; };
+		510A6B3A139D8B6600FD3839 /* DTKenburnsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTKenburnsViewController.h; sourceTree = "<group>"; };
+		510A6B3B139D8B6600FD3839 /* DTKenburnsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTKenburnsViewController.m; sourceTree = "<group>"; };
+		510A6B3C139D8B6600FD3839 /* DTKenburnsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTKenburnsViewController.xib; sourceTree = "<group>"; };
+		510A6B40139D8C5F00FD3839 /* IMG_0661.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0661.JPG; sourceTree = "<group>"; };
+		510A6B44139D8C8C00FD3839 /* IMG_0729.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0729.JPG; sourceTree = "<group>"; };
+		510A6B46139D8CA500FD3839 /* IMG_0848.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0848.JPG; sourceTree = "<group>"; };
+		510A6B48139D8CC100FD3839 /* IMG_0977.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0977.JPG; sourceTree = "<group>"; };
+		510A6B4C139D8CE600FD3839 /* IMG_1147.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1147.JPG; sourceTree = "<group>"; };
+		510A6B4E139D8CF200FD3839 /* IMG_1159.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1159.JPG; sourceTree = "<group>"; };
 		511EB984139AFCBA00C32C20 /* DTButtonColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTButtonColors.h; sourceTree = "<group>"; };
 		511EB985139AFFCA00C32C20 /* FadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadingViewController.h; sourceTree = "<group>"; };
 		511EB986139AFFCA00C32C20 /* FadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadingViewController.m; sourceTree = "<group>"; };
@@ -137,6 +156,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		510A6B3F139D8BE500FD3839 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				510A6B4E139D8CF200FD3839 /* IMG_1159.JPG */,
+				510A6B4C139D8CE600FD3839 /* IMG_1147.JPG */,
+				510A6B48139D8CC100FD3839 /* IMG_0977.JPG */,
+				510A6B46139D8CA500FD3839 /* IMG_0848.JPG */,
+				510A6B44139D8C8C00FD3839 /* IMG_0729.JPG */,
+				510A6B40139D8C5F00FD3839 /* IMG_0661.JPG */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
 		5144A625139992BD00C5E2AC = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +218,10 @@
 				511EB985139AFFCA00C32C20 /* FadingViewController.h */,
 				511EB986139AFFCA00C32C20 /* FadingViewController.m */,
 				511EB987139AFFCA00C32C20 /* FadingViewController.xib */,
+				510A6B3A139D8B6600FD3839 /* DTKenburnsViewController.h */,
+				510A6B3B139D8B6600FD3839 /* DTKenburnsViewController.m */,
+				510A6B3C139D8B6600FD3839 /* DTKenburnsViewController.xib */,
+				510A6B3F139D8BE500FD3839 /* pictures */,
 				5144A63B139992BD00C5E2AC /* Supporting Files */,
 			);
 			path = Delirium;
@@ -239,6 +275,8 @@
 		51D1106B1399F48A00A97CC5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				510A6B36139D7F5B00FD3839 /* DTKenburnsView.h */,
+				510A6B37139D7F5B00FD3839 /* DTKenburnsView.m */,
 				511EB984139AFCBA00C32C20 /* DTButtonColors.h */,
 				514ED30B139AF21200D7A311 /* DTGradientButton.h */,
 				514ED30C139AF21200D7A311 /* DTGradientButton.m */,
@@ -348,6 +386,13 @@
 				5131E73B139A2CFD0077F752 /* DTButtonsViewController.xib in Resources */,
 				514ED314139AFAEA00D7A311 /* DTGradientButtonViewController.xib in Resources */,
 				511EB989139AFFCA00C32C20 /* FadingViewController.xib in Resources */,
+				510A6B3E139D8B6600FD3839 /* DTKenburnsViewController.xib in Resources */,
+				510A6B41139D8C5F00FD3839 /* IMG_0661.JPG in Resources */,
+				510A6B45139D8C8C00FD3839 /* IMG_0729.JPG in Resources */,
+				510A6B47139D8CA500FD3839 /* IMG_0848.JPG in Resources */,
+				510A6B49139D8CC100FD3839 /* IMG_0977.JPG in Resources */,
+				510A6B4D139D8CE600FD3839 /* IMG_1147.JPG in Resources */,
+				510A6B4F139D8CF300FD3839 /* IMG_1159.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +431,6 @@
 				5144A642139992BD00C5E2AC /* main.m in Sources */,
 				5144A645139992BD00C5E2AC /* DeliriumAppDelegate.m in Sources */,
 				5144A64B139992BD00C5E2AC /* DeliriumViewController.m in Sources */,
-				51D110811399F4B200A97CC5 /* NSDateFormatter+Extras.m in Sources */,
 				51D110821399F4B200A97CC5 /* NSMutableArray+Extras.m in Sources */,
 				51D110831399F4B200A97CC5 /* NSObject+Mapping.m in Sources */,
 				51D110841399F4B200A97CC5 /* UIImage+Resize.m in Sources */,
@@ -398,6 +442,8 @@
 				514ED30D139AF21200D7A311 /* DTGradientButton.m in Sources */,
 				514ED313139AFAEA00D7A311 /* DTGradientButtonViewController.m in Sources */,
 				511EB988139AFFCA00C32C20 /* FadingViewController.m in Sources */,
+				510A6B38139D7F5B00FD3839 /* DTKenburnsView.m in Sources */,
+				510A6B3D139D8B6600FD3839 /* DTKenburnsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
