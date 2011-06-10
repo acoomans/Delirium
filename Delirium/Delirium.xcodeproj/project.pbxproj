@@ -221,7 +221,6 @@
 				510A6B3A139D8B6600FD3839 /* DTKenburnsViewController.h */,
 				510A6B3B139D8B6600FD3839 /* DTKenburnsViewController.m */,
 				510A6B3C139D8B6600FD3839 /* DTKenburnsViewController.xib */,
-				510A6B3F139D8BE500FD3839 /* pictures */,
 				5144A63B139992BD00C5E2AC /* Supporting Files */,
 			);
 			path = Delirium;
@@ -234,6 +233,7 @@
 				5144A63D139992BD00C5E2AC /* InfoPlist.strings */,
 				5144A640139992BD00C5E2AC /* Delirium-Prefix.pch */,
 				5144A641139992BD00C5E2AC /* main.m */,
+				510A6B3F139D8BE500FD3839 /* pictures */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
