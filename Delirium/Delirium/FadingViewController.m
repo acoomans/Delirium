@@ -12,7 +12,7 @@
 
 @implementation FadingViewController
 
-@synthesize switch1, switch2;
+@synthesize switch1, switch2, button;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -28,6 +28,7 @@
 {
 	[switch1 release];
 	[switch2 release];
+	[button release];
     [super dealloc];
 }
 
@@ -64,6 +65,16 @@
 	[super viewDidAppear:animated];
 	[self.switch1 fadeOut];
 	[self.switch2 fadeIn];
+}
+
+- (IBAction)again:(id)sender {
+	if (switch1.hidden || switch1.alpha ==0) {
+		[self.switch1 fadeIn];
+		[self.switch2 fadeOut];
+	} else {
+		[self.switch1 fadeOut];
+		[self.switch2 fadeIn];		
+	}
 }
 
 @end
