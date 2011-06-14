@@ -11,6 +11,8 @@
 #import "DTGradientButtonViewController.h"
 #import "FadingViewController.h"
 #import "DTKenburnsViewController.h"
+#import "DTBarButtonBadgeViewController.h"
+#import "DTBarBadgeViewController.h"
 
 
 @implementation DeliriumMenuViewController
@@ -41,7 +43,15 @@
 							   [DTGradientButtonViewController class],
 							   [FadingViewController class],
 							   [DTKenburnsViewController class],
+							   [DTBarButtonBadgeViewController class],
+							   [DTBarBadgeViewController class],
 							   nil];
+}
+
+
+- (void)viewDidAppear:(BOOL)animated {
+	[super viewDidAppear:animated];
+	self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
 }
 
 
