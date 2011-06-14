@@ -14,4 +14,6 @@
 
 @property (nonatomic, retain) NSArray *controllersClasses;
 
+- (NSString*)shortNameForClass:(id)class;
+
 @end

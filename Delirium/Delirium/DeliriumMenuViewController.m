@@ -78,12 +78,23 @@
     // Configure the cell...
 	
 	id controllerClass = [self.controllersClasses objectAtIndex:indexPath.row];
-	cell.textLabel.text = [controllerClass description];
+	cell.textLabel.text = [self shortNameForClass:controllerClass];
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
 
+
+- (NSString*)shortNameForClass:(id)class {
+	NSString *name = [class description];
+	NSRange textRange;
+	textRange =[name rangeOfString:@"ViewController"];
+	
+	if (textRange.location != NSNotFound) {
+		return [name substringToIndex:textRange.location];
+	}
+	return nil;
+}
 
 #pragma mark - Table view delegate
 
