@@ -13,6 +13,7 @@
 #import "DTKenburnsViewController.h"
 #import "DTBarButtonBadgeViewController.h"
 #import "DTBarBadgeViewController.h"
+#import "DTParallaxViewControllerViewController.h"
 
 
 @implementation DeliriumMenuViewController
@@ -45,6 +46,7 @@
 							   [DTKenburnsViewController class],
 							   [DTBarButtonBadgeViewController class],
 							   [DTBarBadgeViewController class],
+							   [DTParallaxViewControllerViewController class],
 							   nil];
 }
 
@@ -88,7 +90,7 @@
 - (NSString*)shortNameForClass:(id)class {
 	NSString *name = [class description];
 	NSRange textRange;
-	textRange =[name rangeOfString:@"ViewController"];
+	textRange =[name rangeOfString:@"ViewController" options:NSBackwardsSearch];
 	
 	if (textRange.location != NSNotFound) {
 		return [name substringToIndex:textRange.location];
