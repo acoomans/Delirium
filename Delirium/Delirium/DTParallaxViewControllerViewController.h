@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "DTParallaxViewController.h"
 
-@interface DTParallaxViewControllerViewController : DTParallaxViewController
+@interface DTParallaxViewControllerViewController : DTParallaxViewController <UITextFieldDelegate> {
+	UITextField *mTextField;
+}
 
+@property (nonatomic, retain) IBOutlet UITextField *textField;
 
 - (IBAction)scrollToZero;
 - (IBAction)scrollToTop;
@@ -19,5 +22,6 @@
 - (IBAction)scrollToRight;
 - (IBAction)scrollToCenter;
 
+- (IBAction)focusAction:(id)sender;
 
 @end

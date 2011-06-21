@@ -10,6 +10,8 @@
 
 @implementation DTParallaxViewControllerViewController
 
+@synthesize textField=mTextField;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -69,5 +71,21 @@
 - (IBAction)scrollToCenter {
 	[self scrollToCenterAnimated:YES];
 }
+
+
+- (IBAction)focusAction:(id)sender {
+	[self scrollToView:self.textField];
+}
+
+
+#pragma mark - textField delegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	[textField resignFirstResponder];
+	return YES;
+}
+
+
+
 
 @end

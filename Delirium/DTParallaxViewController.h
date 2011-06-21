@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define kParallaxScrollingSpeed 0.3
+
 @interface DTParallaxViewController : UIViewController <UIScrollViewDelegate> {
 	UIView *mWrapperView;
 	UIImageView *mBackgroundView;
@@ -30,5 +32,7 @@
 - (void)scrollToRightAnimated:(BOOL)animated;
 - (void)scrollToCenterAnimated:(BOOL)animated;
 - (void)scrollToPoint:(CGPoint)point animated:(BOOL)animated;
+
+- (void)scrollToView:(UIView*)view;
 
 @end

@@ -63,33 +63,6 @@ contentView=mContentView;
     
     return self;
 }
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-		
-		CGRect frame = [[[UIApplication sharedApplication] keyWindow] frame];
-
-		if (!self.wrapperView) {
-			self.wrapperView = [[[UIView alloc] initWithFrame:frame] autorelease];
-		}
-		
-		if (!self.backgroundView) {
-			self.backgroundView = [[[UIImageView alloc] initWithFrame:frame] autorelease];
-			[self.wrapperView addSubview:self.backgroundView];
-		}
-
-		if (!self.scrollview) {
-			self.scrollview = [[[UIScrollView alloc] initWithFrame:frame] autorelease];
-			[self.wrapperView addSubview:self.scrollview];
-		}
-		
-		//self.view = self.wrapperView;
-    }
-    return self;
-}
-*/
 
 - (void)dealloc {
 	[mBackgroundView release];
@@ -99,21 +72,6 @@ contentView=mContentView;
 }
 
 #pragma mark - View lifecycle
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
 
 
 /*
@@ -186,7 +144,7 @@ contentView=mContentView;
 	NSLog(@"scroll to point %f,%f", point.x, point.y);
 	if (animated) {
 		[UIView beginAnimations:nil context:NULL];
-		[UIView setAnimationDuration:0.3];
+		[UIView setAnimationDuration:kParallaxScrollingSpeed];
 		self.scrollView.contentOffset = point;
 		[UIView commitAnimations];
 	} else {
@@ -229,18 +187,14 @@ contentView=mContentView;
 	[self scrollToPoint:CGPointMake((c.width-s.width)/2, (c.height-s.height)/2) animated:animated];
 }
 
-
-/*
-- (IBAction)scrollFocus:(id)sender {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:0.3];
-	UIView *view = (UIView*) sender;
-	CGRect rect = view.frame;
-	CGPoint sp = self.scrollView.contentOffset;
-	sp.y = rect.origin.y - 10;
-	self.scrollView.contentOffset = sp;
-	[UIView commitAnimations];
+- (void)scrollToView:(UIView*)view {
+	CGPoint center = view.center;
+	
+	float x = center.x-self.scrollView.frame.size.width/2;
+	float y = center.y-self.scrollView.frame.size.height/2;
+	
+	[self scrollToPoint:CGPointMake(x, y) animated:YES];
 }
-*/
+
 
 @end
