@@ -25,7 +25,6 @@ scrollView=mScrollView;
 - (id)init {
     self = [super init];
     if (self) {
-		NSLog(@"init");
 		
 		CGRect frame = [[[UIApplication sharedApplication] keyWindow] frame];
 		

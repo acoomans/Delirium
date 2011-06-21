@@ -8,10 +8,6 @@
 
 #import "DTParallaxViewController.h"
 
-
-#define kParallaxMarginX 320.0
-#define kParallaxMarginY 480.0
-
 @interface DTParallaxViewController ()
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView;
 - (void)scroll:(UIScrollView *)scrollView background:(UIView*)backgroundView;
@@ -29,8 +25,6 @@ contentView=mContentView;
 - (id)init {
     self = [super init];
     if (self) {
-		NSLog(@"init");
-		
 		CGRect frame = [[[UIApplication sharedApplication] keyWindow] frame];
 		
 		CGRect q = [[UIApplication sharedApplication] statusBarFrame];
