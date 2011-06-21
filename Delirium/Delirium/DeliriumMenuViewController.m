@@ -13,6 +13,7 @@
 #import "DTKenburnsViewController.h"
 #import "DTBarButtonBadgeViewController.h"
 #import "DTBarBadgeViewController.h"
+#import "DTParallaxTableViewControllerViewController.h"
 #import "DTParallaxViewControllerViewController.h"
 
 
@@ -46,6 +47,7 @@
 							   [DTKenburnsViewController class],
 							   [DTBarButtonBadgeViewController class],
 							   [DTBarBadgeViewController class],
+							   [DTParallaxTableViewControllerViewController class],
 							   [DTParallaxViewControllerViewController class],
 							   nil];
 }
