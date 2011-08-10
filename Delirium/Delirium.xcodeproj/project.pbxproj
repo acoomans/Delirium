@@ -23,6 +23,12 @@
 		511EDA5113AA828100D1FAB2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 511EDA5013AA828100D1FAB2 /* background.png */; };
 		5123CB0D13A1CC10007511F3 /* DeliriumMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5123CB0B13A1CC10007511F3 /* DeliriumMenuViewController.m */; };
 		5123CB0E13A1CC10007511F3 /* DeliriumMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5123CB0C13A1CC10007511F3 /* DeliriumMenuViewController.xib */; };
+		512FF0C813F1E76D005AF51B /* DTAccordionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FF0C713F1E76D005AF51B /* DTAccordionViewController.m */; };
+		512FF0CD13F1E7CB005AF51B /* DTAccordionViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FF0CB13F1E7CB005AF51B /* DTAccordionViewControllerViewController.m */; };
+		512FF0CE13F1E7CB005AF51B /* DTAccordionViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512FF0CC13F1E7CB005AF51B /* DTAccordionViewControllerViewController.xib */; };
+		512FF0D113F1F1B6005AF51B /* DTAccordionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FF0D013F1F1B6005AF51B /* DTAccordionHeader.m */; };
+		512FF0E213F200F8005AF51B /* indicator-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 512FF0E013F200F8005AF51B /* indicator-shadow.png */; };
+		512FF0E313F200F8005AF51B /* indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 512FF0E113F200F8005AF51B /* indicator.png */; };
 		51314D961399FAA400FBBADB /* DTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 51314D951399FAA400FBBADB /* DTButton.m */; };
 		5131E72F139A27320077F752 /* DTButtons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5131E72E139A27320077F752 /* DTButtons.bundle */; };
 		5131E73A139A2CFD0077F752 /* DTButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5131E738139A2CFD0077F752 /* DTButtonsViewController.m */; };
@@ -100,6 +106,15 @@
 		5123CB0A13A1CC10007511F3 /* DeliriumMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliriumMenuViewController.h; sourceTree = "<group>"; };
 		5123CB0B13A1CC10007511F3 /* DeliriumMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliriumMenuViewController.m; sourceTree = "<group>"; };
 		5123CB0C13A1CC10007511F3 /* DeliriumMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeliriumMenuViewController.xib; sourceTree = "<group>"; };
+		512FF0C613F1E76D005AF51B /* DTAccordionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionViewController.h; sourceTree = "<group>"; };
+		512FF0C713F1E76D005AF51B /* DTAccordionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAccordionViewController.m; sourceTree = "<group>"; };
+		512FF0CA13F1E7CB005AF51B /* DTAccordionViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionViewControllerViewController.h; sourceTree = "<group>"; };
+		512FF0CB13F1E7CB005AF51B /* DTAccordionViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAccordionViewControllerViewController.m; sourceTree = "<group>"; };
+		512FF0CC13F1E7CB005AF51B /* DTAccordionViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTAccordionViewControllerViewController.xib; sourceTree = "<group>"; };
+		512FF0CF13F1F1B6005AF51B /* DTAccordionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionHeader.h; sourceTree = "<group>"; };
+		512FF0D013F1F1B6005AF51B /* DTAccordionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAccordionHeader.m; sourceTree = "<group>"; };
+		512FF0E013F200F8005AF51B /* indicator-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator-shadow.png"; sourceTree = "<group>"; };
+		512FF0E113F200F8005AF51B /* indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator.png; sourceTree = "<group>"; };
 		51314D941399FAA400FBBADB /* DTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTButton.h; sourceTree = "<group>"; };
 		51314D951399FAA400FBBADB /* DTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTButton.m; sourceTree = "<group>"; };
 		5131E72E139A27320077F752 /* DTButtons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DTButtons.bundle; path = ../DTButtons.bundle; sourceTree = "<group>"; };
@@ -236,6 +251,9 @@
 				51F2EA4913A9ED880040AE59 /* DTParallaxViewControllerViewController.h */,
 				51F2EA4A13A9ED880040AE59 /* DTParallaxViewControllerViewController.m */,
 				51F2EA4B13A9ED880040AE59 /* DTParallaxViewControllerViewController.xib */,
+				512FF0CA13F1E7CB005AF51B /* DTAccordionViewControllerViewController.h */,
+				512FF0CB13F1E7CB005AF51B /* DTAccordionViewControllerViewController.m */,
+				512FF0CC13F1E7CB005AF51B /* DTAccordionViewControllerViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -356,6 +374,12 @@
 				514ED30C139AF21200D7A311 /* DTGradientButton.m */,
 				51314D941399FAA400FBBADB /* DTButton.h */,
 				51314D951399FAA400FBBADB /* DTButton.m */,
+				512FF0C613F1E76D005AF51B /* DTAccordionViewController.h */,
+				512FF0C713F1E76D005AF51B /* DTAccordionViewController.m */,
+				512FF0CF13F1F1B6005AF51B /* DTAccordionHeader.h */,
+				512FF0D013F1F1B6005AF51B /* DTAccordionHeader.m */,
+				512FF0E013F200F8005AF51B /* indicator-shadow.png */,
+				512FF0E113F200F8005AF51B /* indicator.png */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -474,6 +498,9 @@
 				51F2EA4D13A9ED880040AE59 /* DTParallaxViewControllerViewController.xib in Resources */,
 				511EDA5113AA828100D1FAB2 /* background.png in Resources */,
 				51DC2ED713B0664300A78C23 /* DTParallaxTableViewControllerViewController.xib in Resources */,
+				512FF0CE13F1E7CB005AF51B /* DTAccordionViewControllerViewController.xib in Resources */,
+				512FF0E213F200F8005AF51B /* indicator-shadow.png in Resources */,
+				512FF0E313F200F8005AF51B /* indicator.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +560,9 @@
 				51F2EA4C13A9ED880040AE59 /* DTParallaxViewControllerViewController.m in Sources */,
 				51DC2ECE13B0621000A78C23 /* DTParallaxTableViewController.m in Sources */,
 				51DC2ED613B0664300A78C23 /* DTParallaxTableViewControllerViewController.m in Sources */,
+				512FF0C813F1E76D005AF51B /* DTAccordionViewController.m in Sources */,
+				512FF0CD13F1E7CB005AF51B /* DTAccordionViewControllerViewController.m in Sources */,
+				512FF0D113F1F1B6005AF51B /* DTAccordionHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

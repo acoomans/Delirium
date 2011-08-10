@@ -12,3 +12,7 @@
 	#import <UIKit/UIKit.h>
 	#import <Foundation/Foundation.h>
 #endif
+
+
+#define DegreesToRadians(degrees) degrees * M_PI / 180
+#define RadiansToDegrees(radians) radians * 180 / M_PI
