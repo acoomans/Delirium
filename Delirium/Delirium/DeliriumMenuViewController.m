@@ -15,7 +15,7 @@
 #import "DTBarBadgeViewController.h"
 #import "DTParallaxTableViewControllerViewController.h"
 #import "DTParallaxViewControllerViewController.h"
-#import "DTAccordionViewControllerViewController.h"
+#import "DTTableAccordionViewControllerViewController.h"
 
 
 @implementation DeliriumMenuViewController
@@ -50,7 +50,7 @@
 							   [DTBarBadgeViewController class],
 							   [DTParallaxTableViewControllerViewController class],
 							   [DTParallaxViewControllerViewController class],
-							   [DTAccordionViewControllerViewController class],
+							   [DTTableAccordionViewControllerViewController class],
 							   nil];
 }
 
