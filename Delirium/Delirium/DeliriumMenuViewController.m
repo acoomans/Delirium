@@ -16,6 +16,7 @@
 #import "DTParallaxTableViewControllerViewController.h"
 #import "DTParallaxViewControllerViewController.h"
 #import "DTTableAccordionViewControllerViewController.h"
+#import "DTAccordionViewControllerViewController.h"
 
 
 @implementation DeliriumMenuViewController
@@ -51,6 +52,7 @@
 							   [DTParallaxTableViewControllerViewController class],
 							   [DTParallaxViewControllerViewController class],
 							   [DTTableAccordionViewControllerViewController class],
+							   [DTAccordionViewControllerViewController class],
 							   nil];
 }
 

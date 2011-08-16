@@ -72,6 +72,10 @@
 		51F2EA4813A9E58A0040AE59 /* DTParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EA4713A9E58A0040AE59 /* DTParallaxViewController.m */; };
 		51F2EA4C13A9ED880040AE59 /* DTParallaxViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F2EA4A13A9ED880040AE59 /* DTParallaxViewControllerViewController.m */; };
 		51F2EA4D13A9ED880040AE59 /* DTParallaxViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F2EA4B13A9ED880040AE59 /* DTParallaxViewControllerViewController.xib */; };
+		51F762D713FA730300C7EF19 /* DTAccordionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F762D613FA730300C7EF19 /* DTAccordionViewController.m */; };
+		51F762DC13FA804A00C7EF19 /* DTAccordionSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F762DB13FA804900C7EF19 /* DTAccordionSectionView.m */; };
+		51F762E413FA95A900C7EF19 /* DTAccordionViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F762E213FA95A900C7EF19 /* DTAccordionViewControllerViewController.m */; };
+		51F762E513FA95A900C7EF19 /* DTAccordionViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F762E313FA95A900C7EF19 /* DTAccordionViewControllerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,12 +110,12 @@
 		5123CB0A13A1CC10007511F3 /* DeliriumMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliriumMenuViewController.h; sourceTree = "<group>"; };
 		5123CB0B13A1CC10007511F3 /* DeliriumMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliriumMenuViewController.m; sourceTree = "<group>"; };
 		5123CB0C13A1CC10007511F3 /* DeliriumMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeliriumMenuViewController.xib; sourceTree = "<group>"; };
-		512FF0C613F1E76D005AF51B /* DTTableAccordionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DTTableAccordionViewController.h; sourceTree = "<group>"; };
+		512FF0C613F1E76D005AF51B /* DTTableAccordionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableAccordionViewController.h; sourceTree = "<group>"; };
 		512FF0C713F1E76D005AF51B /* DTTableAccordionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableAccordionViewController.m; sourceTree = "<group>"; };
-		512FF0CA13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DTTableAccordionViewControllerViewController.h; sourceTree = "<group>"; };
+		512FF0CA13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableAccordionViewControllerViewController.h; sourceTree = "<group>"; };
 		512FF0CB13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableAccordionViewControllerViewController.m; sourceTree = "<group>"; };
 		512FF0CC13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTTableAccordionViewControllerViewController.xib; sourceTree = "<group>"; };
-		512FF0CF13F1F1B6005AF51B /* DTTableAccordionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DTTableAccordionHeader.h; sourceTree = "<group>"; };
+		512FF0CF13F1F1B6005AF51B /* DTTableAccordionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableAccordionHeader.h; sourceTree = "<group>"; };
 		512FF0D013F1F1B6005AF51B /* DTTableAccordionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableAccordionHeader.m; sourceTree = "<group>"; };
 		512FF0E013F200F8005AF51B /* indicator-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicator-shadow.png"; sourceTree = "<group>"; };
 		512FF0E113F200F8005AF51B /* indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator.png; sourceTree = "<group>"; };
@@ -184,6 +188,16 @@
 		51F2EA4913A9ED880040AE59 /* DTParallaxViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTParallaxViewControllerViewController.h; sourceTree = "<group>"; };
 		51F2EA4A13A9ED880040AE59 /* DTParallaxViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTParallaxViewControllerViewController.m; sourceTree = "<group>"; };
 		51F2EA4B13A9ED880040AE59 /* DTParallaxViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTParallaxViewControllerViewController.xib; sourceTree = "<group>"; };
+		51F762D513FA730300C7EF19 /* DTAccordionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionViewController.h; sourceTree = "<group>"; };
+		51F762D613FA730300C7EF19 /* DTAccordionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAccordionViewController.m; sourceTree = "<group>"; };
+		51F762D813FA74F000C7EF19 /* DTAccordionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionDataSource.h; sourceTree = "<group>"; };
+		51F762D913FA759D00C7EF19 /* DTAccordionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionDelegate.h; sourceTree = "<group>"; };
+		51F762DA13FA804900C7EF19 /* DTAccordionSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionSectionView.h; sourceTree = "<group>"; };
+		51F762DB13FA804900C7EF19 /* DTAccordionSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAccordionSectionView.m; sourceTree = "<group>"; };
+		51F762DD13FA8DE000C7EF19 /* DTAccordionSectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionSectionDelegate.h; sourceTree = "<group>"; };
+		51F762E113FA95A800C7EF19 /* DTAccordionViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAccordionViewControllerViewController.h; sourceTree = "<group>"; };
+		51F762E213FA95A900C7EF19 /* DTAccordionViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAccordionViewControllerViewController.m; sourceTree = "<group>"; };
+		51F762E313FA95A900C7EF19 /* DTAccordionViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTAccordionViewControllerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +268,9 @@
 				512FF0CA13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.h */,
 				512FF0CB13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.m */,
 				512FF0CC13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.xib */,
+				51F762E113FA95A800C7EF19 /* DTAccordionViewControllerViewController.h */,
+				51F762E213FA95A900C7EF19 /* DTAccordionViewControllerViewController.m */,
+				51F762E313FA95A900C7EF19 /* DTAccordionViewControllerViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -380,6 +397,13 @@
 				512FF0D013F1F1B6005AF51B /* DTTableAccordionHeader.m */,
 				512FF0E013F200F8005AF51B /* indicator-shadow.png */,
 				512FF0E113F200F8005AF51B /* indicator.png */,
+				51F762D513FA730300C7EF19 /* DTAccordionViewController.h */,
+				51F762D613FA730300C7EF19 /* DTAccordionViewController.m */,
+				51F762D813FA74F000C7EF19 /* DTAccordionDataSource.h */,
+				51F762D913FA759D00C7EF19 /* DTAccordionDelegate.h */,
+				51F762DA13FA804900C7EF19 /* DTAccordionSectionView.h */,
+				51F762DB13FA804900C7EF19 /* DTAccordionSectionView.m */,
+				51F762DD13FA8DE000C7EF19 /* DTAccordionSectionDelegate.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -501,6 +525,7 @@
 				512FF0CE13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.xib in Resources */,
 				512FF0E213F200F8005AF51B /* indicator-shadow.png in Resources */,
 				512FF0E313F200F8005AF51B /* indicator.png in Resources */,
+				51F762E513FA95A900C7EF19 /* DTAccordionViewControllerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +588,9 @@
 				512FF0C813F1E76D005AF51B /* DTTableAccordionViewController.m in Sources */,
 				512FF0CD13F1E7CB005AF51B /* DTTableAccordionViewControllerViewController.m in Sources */,
 				512FF0D113F1F1B6005AF51B /* DTTableAccordionHeader.m in Sources */,
+				51F762D713FA730300C7EF19 /* DTAccordionViewController.m in Sources */,
+				51F762DC13FA804A00C7EF19 /* DTAccordionSectionView.m in Sources */,
+				51F762E413FA95A900C7EF19 /* DTAccordionViewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
