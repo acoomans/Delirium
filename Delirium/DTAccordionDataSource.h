@@ -14,7 +14,6 @@
 @optional
 - (NSUInteger)numberOfSectionsForAccordion:(DTAccordionViewController*)accordion;
 - (UIView*)accordion:(DTAccordionViewController*)accordion headerForSectionAtIndex:(NSUInteger)index;
-- (CGFloat)accordion:(DTAccordionViewController*)accordion heightOfheaderForSectionAtIndex:(NSUInteger)index;
 - (NSString*)accordion:(DTAccordionViewController*)accordion headerTitleForSectionAtIndex:(NSUInteger)index;
 - (UIView*)accordion:(DTAccordionViewController*)accordion subviewForSectionAtIndex:(NSUInteger)index;
 @end

@@ -11,5 +11,6 @@
 @interface DTAccordionViewControllerViewController : DTAccordionViewController <DTAccordionDataSource, DTAccordionDelegate>
 
 @property (nonatomic, retain) NSArray *sectionSource;
- 
+@property (nonatomic, retain) UITableViewController *tableViewController;
+
 @end

@@ -89,7 +89,7 @@ closingSectionIndex=mClosingSectionIndex;
 		UIView *headerView = nil;
 		UIView *contentView = nil;
 		
-		if ([self.dataSource respondsToSelector:@selector(accordion:headerForSection:)]) {
+		if ([self.dataSource respondsToSelector:@selector(accordion:headerForSectionAtIndex:)]) {
 			headerView = [self.dataSource accordion:self headerForSectionAtIndex:i];
 		}
 		if (!headerView) {
@@ -123,17 +123,9 @@ closingSectionIndex=mClosingSectionIndex;
 
 
 - (CGFloat)headerHeightSum {
-	NSUInteger numberOfSections = 0;
 	CGFloat heightSum = 0;
-	
-	if (self.dataSource && [self.dataSource respondsToSelector:@selector(numberOfSectionsForAccordion)]) {
-		numberOfSections = [self.dataSource numberOfSectionsForAccordion:self];
-	}
-	
-	for (NSUInteger i=0; i < numberOfSections; i++) {
-		if ([self.dataSource respondsToSelector:@selector(accordion:heightOfheaderForSection:)]) {
-			heightSum += [self.dataSource accordion:self heightOfheaderForSectionAtIndex:i];
-		}
+	for (DTAccordionSectionView *section in mSections) {
+		heightSum += section.frame.size.height;
 	}
 	return heightSum;
 }

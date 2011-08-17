@@ -80,8 +80,13 @@ isOpen=mIsOpen;
 	[UIView setAnimationDidStopSelector:@selector(openWithHeightAnimationFinished)];
 	self.contentView.alpha = 1.0;
 	CGRect frame = self.frame;
-	frame.size.height = height;
+	frame.size.height = height + self.headerView.frame.size.height;
 	self.frame = frame;
+	
+	frame = self.contentView.frame;
+	frame.size.height = height;
+	self.contentView.frame = frame;
+	
 	[UIView commitAnimations];
 }
 
